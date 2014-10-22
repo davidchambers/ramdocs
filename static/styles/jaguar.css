@@ -11,7 +11,7 @@ ol {
 li {
   list-style-type: none;
 }
-#wrap {
+#pagewrap {
   position: relative;
 }
 ::-webkit-scrollbar {
