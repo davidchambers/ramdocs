@@ -53,4 +53,3 @@ License
 This project under the MIT License. and this project refered by default template for JSDoc 3.
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/davidshimjs/jaguarjs-jsdoc/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
