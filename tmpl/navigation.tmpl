@@ -21,7 +21,7 @@ var self = this;
               <li>
                 <h5 class="title"><?js= c.name ?></h5>
                 <ul><?js c.methods.forEach(function(m) { ?>
-                   <li data-name="<?js= m.longname ?>"><?js= self.linkto(m.longname, m.name) ?></li><?js });?>
+                   <li class="fn" data-name="<?js= m.longname ?>"><?js= self.linkto(m.longname, m.name) ?></li><?js });?>
                 </ul>
               </li><?js })?>
             <?js } ?>
@@ -36,7 +36,7 @@ var self = this;
                 if (item.methods.length) {
                     item.methods.forEach(function (v) {
                 ?>
-                    <li data-name="<?js= v.longname ?>"><?js= self.linkto(v.longname, v.name) ?></li><?js
+                    <li class="fn" data-name="<?js= v.longname ?>"><?js= self.linkto(v.longname, v.name) ?></li><?js
                     });
                 }
                 ?>

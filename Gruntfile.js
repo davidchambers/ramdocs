@@ -4,7 +4,7 @@
 module.exports = function (grunt) {
     var path = require('path');
     var DEMO_PATH = 'docs';
-    
+
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
