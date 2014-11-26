@@ -14,6 +14,13 @@ li {
 #pagewrap {
   position: relative;
 }
+code {
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+.prettyprint code {
+  border: none;
+}
 ::-webkit-scrollbar {
   width: 8px;
   background-color: transparent;
