@@ -60,7 +60,7 @@ module.exports = function (grunt) {
         'curl-dir': {
             'ramda': {
                 src: [
-                    'https://raw.githubusercontent.com/ramda/ramda/master/ramda.js',
+                    'https://raw.githubusercontent.com/ramda/ramda/master/dist/ramda.js',
                     'https://raw.githubusercontent.com/ramda/ramda/master/README.md'
                 ],
                 dest: 'src'
